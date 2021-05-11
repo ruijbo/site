@@ -20,6 +20,5 @@ install:
 script:
     - make html-cv
 
-after_success:
-- cd output && find . -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://fwagner.info/fwagner.info/\{\} \;
+
 
