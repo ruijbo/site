@@ -62,6 +62,6 @@ DEFAULT_DATE = 'fs'
 
 # Theme settings
 THEME = 'themes/pure-single'
-PROFILE_IMG_URL = 'http://home.uevora.pt/~ruio/static/foto.jpg'
-COVER_IMG_URL = 'http://home.uevora.pt/~ruio/static/background.jpg'
+PROFILE_IMG_URL = '/static/foto.jpg'
+COVER_IMG_URL = '/static/background.jpg'
 TAGLINE = 'Applied Geophysics'
